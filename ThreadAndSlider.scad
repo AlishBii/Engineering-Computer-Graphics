@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@AlishBii 
-Marlen1703
-/
-ProjectGraphics
-1
-02
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-ProjectGraphics/ThreadAndSlider.scad
-@Marlen1703
-Marlen1703 commit
-Latest commit 6589627 on 29 Mar 2020
- History
- 1 contributor
-86 lines (84 sloc)  3.24 KB
-  
 fn = 12; // Fragment number- OpenSCAD polygon sides parameter
 tolerance = .4; // Spacing parameter (make bigger if parts stick together)
 pitch = 4; // Screw pitch
@@ -114,16 +84,3 @@ translate([0, 0, -lead]) polyhedron(points, faces, convexity = 10);
 function quad(a, b, c, d, r = false) = r ? [[a, b, c], [c, d, a]] :
 [[c, b, a], [a, d, c]];
 //create triangles from quad
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
